@@ -4,7 +4,6 @@
 #
 %define		pdir	Test
 %define		pnam	Requires
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::Requires - checks to see if the module can be loaded
 Summary(pl.UTF-8):	Test::Requires - sprawdzanie, czy moduł może być załadowany
 Name:		perl-Test-Requires
