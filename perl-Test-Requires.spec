@@ -7,13 +7,13 @@
 Summary:	Test::Requires - checks to see if the module can be loaded
 Summary(pl.UTF-8):	Test::Requires - sprawdzanie, czy moduł może być załadowany
 Name:		perl-Test-Requires
-Version:	0.10
+Version:	0.11
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0d5da779609d0c8fa6f796b45ff8c6f3
+# Source0-md5:	999d6c4e46ea7baae7a5113292e02ed8
 URL:		https://metacpan.org/release/Test-Requires
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.64
 %{?with_tests:BuildRequires:	perl-Test-Simple >= 0.61}
