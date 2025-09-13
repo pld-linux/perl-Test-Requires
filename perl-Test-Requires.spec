@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Test
 %define		pnam	Requires
@@ -12,9 +12,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	999d6c4e46ea7baae7a5113292e02ed8
-URL:		https://metacpan.org/release/Test-Requires
+URL:		https://metacpan.org/dist/Test-Requires
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.64
 %{?with_tests:BuildRequires:	perl-Test-Simple >= 0.61}
 BuildRequires:	perl-devel >= 1:5.8.0
